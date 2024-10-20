@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+
+nav{
+  
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:  10px;
+  border-bottom: 2px solid;
+  width: 100%;
+  position:fixed;
+  z-index: 2;
+  
+ 
+  
+  }
+  
+
+  .title{
+   color: rgba(255, 70, 24, 0.747);
+   font-size: 59px;
+   padding-left: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  
+  
+  span{
+    color:rgb(158, 90, 0);
+    font-size:x-large ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.center{
+    color: black;
+}
+ 
+li{
+    font-weight:bolder;
+    font-size: x-large;
+    list-style-type: none;
+
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    padding-right: 80px;
+   
+  
+}
+.fa-house{
+    font-size: 22px;
+    color:rgb(255, 64, 128);
+    padding: 5px;
+}
+.fa-address-card{
+    font-size: 23px;
+  color: rgb(43, 192, 142);
+
+}
+.fa-phone{
+    font-size: 23px;
+  color:rgb(207, 24, 207);
+}
+.fa-screwdriver-wrench{
+    font-size: 23px;
+  color:rgb(255, 166, 0);
+}
+hr{
+    border: 2px solid rgb(7, 7, 7);
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    
+
+    
+}
+nav ul li a:hover{
+    color:rgb(158, 90, 0);
+    transition: 0.1s;
+    text-decoration:underline;
+}
+h1{
+  font-size:6em;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+
+h4{
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 4em;
+ 
+  color: rgb(255, 36, 73);
+ 
+}
+ 
+
+
+img{
+  margin-top: 40px ;
+  height: 500px;
+  width: 700px;
+  float: right;
+  
+  margin-right: 60px;
+}
+button{
+   border-radius: 10px;
+
+   color: white;
+   border:2px solid black;
+   font-size: 20px;
+   padding: 15px 27px;
+   margin-left: 650px;
+   margin-top: 30px;
+   margin-bottom: 35px;
+   background-color:  rgb(82, 163, 0);
+}
+button:hover{
+  background-color:  rgb(255, 36, 73);
+}
+
+
+.img{
+  border-radius: 100px;
+  float: left;
+  padding: 30px;
+}
+h3{
+  text-align: center;
+  font-size: 3em;
+  margin-left: 700px;
+  margin-top: 80px;
+  color: rgb(255, 36, 73);
+ 
+  margin-bottom: 100px;
+}
+h6{ 
+  position: relative;
+  bottom: 90px;
+  
+  text-align: center;
+     margin-left: 800px; 
+ 
+    
+     padding:40px;
+     font-size: 2em;
+     font-family: cursive;
+  
+  
+}
+
+h4{
+  color: rgb(255, 36, 73) ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#container{
+  width: 90%;
+  margin: auto;
+ 
+
+}
+.section-heading{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  color: rgb(255, 0, 85);
+  
+}
+.services-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+.services-card{
+  width: 350px;
+  padding: 22px;
+  border :3px solid rgb(0, 0, 0);
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+
+  
+
+}
+.services-card:hover{
+  transform: translateY(-30px);
+  
+  
+}
+.services-card h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(255, 0, 255);
+
+}
+.services-card p{
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media  screen and (max-width:808px){
+  .services-cards{
+      flex-direction:column;
+      align-items: center;
+      
+
+
+  }
+       
+}
