@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+  
+}
+.pos{
+    background-color:white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    gap: 20px;
+    z-index: 2;
+   border-radius: 20px;
+   background-color:#373A40;
+}
+.pos i{
+   font-size: 19px;
+    color:#DA8359;
+  
+    
+}
+
+.nav{
+    
+    
+    background-color:#373A40;
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.3);
+    position:sticky;
+    top:0;
+    z-index:2;
+    
+    
+   
+
+}
+
+.nav .logu i{
+    margin-left:-14px;
+    color: palevioletred;
+}
+.menus{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menus a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+    
+}
+.menus a:hover{
+    color:#DA8359;
+}
+.logu h1{
+    text-indent: 20px;
+    color: white;
+
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.8);
+
+}
+/* .menus{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: red;
+    width:200px;
+    top:75px;
+    right:5px;
+    text-align: center;
+    padding: 10px;
+} */
+
+.nav button{
+    display: none;
+}
+
+.container{
+    
+   
+    height: 370px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container .img img{
+    width:400px;
+    height: 360px;
+    
+   
+border-radius: 30px;
+}
+.container .content{
+    width: 60%;
+    font-size:large;
+    text-align: justify;
+    
+}
+.container .content h1{
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.container .content .bt button{
+   
+    padding: 15px 60px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.container .content .bt button:hover{
+    font-size: 20px;
+    background-color:palevioletred;
+    color: white;
+}
+.container .content .bt{
+           display: flex;
+           justify-content: center;
+}
+
+hr{
+    border: 0.2px solid;
+}
+.about{
+    
+   padding: 40px; 
+    font-size:large;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ECDFCC;
+}
+
+.about .img img{
+     height: 300px;
+     width: 500px;
+     border-radius: 20px;
+
+}
+.about .text {
+    width: 55%;
+}
+.about .text p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+.about .text h1{
+    text-align: center;
+ 
+}
+.se{
+    text-align: center;
+   
+    background-color: #ECDFCC;
+    font-weight: 500;
+   
+}
+.service{
+        display: flex;
+        justify-content: space-evenly;
+    
+        background-color: #ECDFCC;
+        padding:50px;
+        
+}
+
+.service .flower{
+    position: relative;
+    transition: scale 0.1s;
+
+    
+  
+}
+.service .flower:hover{
+    scale: 1.1;
+}
+.service .flower h2 {
+    position: absolute;
+    color:white;
+   
+    text-indent: 20px;
+    bottom: 170px;
+ 
+  
+}
+
+
+.service .flower p{
+    width: 80%;
+    font-size: small;
+    color: wheat;
+    position: absolute;
+    text-align: justify;
+    bottom:70px;
+    left: 30px; 
+    }
+
+
+.service img{
+    width:350px;
+    height: 450px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 6px 3px rgba(0, 0, 0, 0.8);
+   
+}
+
+  
+.service .flower button{
+   
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    left: 120px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:wheat;
+    box-shadow: 2px 2px 11px 1px palevioletred;
+    cursor: pointer;
+    
+}
+.service .flower button:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+ .reviews{
+   padding: 24px;
+   background-color: #DA8359;
+   
+   
+} 
+.revi{
+    width: 50%;
+    height: 180px;
+    font-size: small;
+    
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    
+}
+
+.reviews .r1 .content {
+        width: 70%;
+        text-align: justify;
+}
+.reviews .revi h1{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.r1 .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+   
+}
+.r1{
+    width:47%;
+    background-color:#FCFAEE;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+} 
+.r2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50%;
+    background-color: #FCFAEE;
+    padding: 15px;
+}
+.reviews .r2 .content{
+    width: 70%;
+    text-align: justify;
+}
+.r2 .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+
+    
+    
+
+}
+.r3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width:47%;
+    background-color:#FCFAEE;
+}
+.reviews .r3 .content{
+    width: 70%;
+    text-align: justify;
+}
+.r3 .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+   
+}
+.r4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    margin-left: 50%;
+    background-color: #FCFAEE;
+}
+.r4 .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+   
+   
+}
+.footer{
+    width:100%;
+    /* height: 500px; */
+    background-color: #222629;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.contact{
+    width: 30%;
+    height: 300px;
+    font-size: small;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   text-align: left;
+   text-align:justify;
+   color: white;
+   padding-top: 50px;
+   padding: 50px;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   text-align: left;
+   text-align:justify;
+   color:white;
+
+   padding-top: 50px;
+   padding: 50px;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.address i{
+    margin-right: 5px;
+
+}
+.map{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   text-align:justify;
+
+   padding-top: 50px;
+   padding: 50px;
+}
+.footer .contact h4,h1{
+    font-weight: 380;
+}
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:784px){
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        width: 100%;
+        height: 8vh;
+
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        
+    }
+    .nav .logu h1{
+        font-size: 20px;
+       
+        
+    }
+   
+    
+    .nav .menus{
+        position: absolute;
+        top:44px;
+        right: 1px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color:palevioletred;
+        border-radius: 8px;
+     
+        
+
+    }
+    .nav .menus{
+        display:none;
+    }
+   
+    .container{
+        
+       margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container .content{
+        width: 90%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .container .content p{
+        font-size: 13px;
+        text-indent: 20px;
+        
+        
+    }
+    .container .content .bt button{
+        padding: 5px 15px;
+        font-size: 14px;
+        margin-top: 10px;
+       
+    }
+    
+    .container .content h1{
+        font-size: 30px;
+        
+        margin-bottom: 0px;
+    }
+    .container .img img{
+        width: 200px;
+        height: 200px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+      
+    }
+    .about .img img{
+        display: flex;
+        flex-direction: column;
+        
+        width:100%;
+        height:100%;
+
+    }
+    .about .text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+   
+    }
+    .about .text p {
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        line-height: 18px;
+        margin: 0;
+       
+        
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+
+    }
+    .se{
+        font-size: 20px;
+    }
+    .service .flower img{
+        width: 100%;
+    height: 300px ;
+       
+
+    }
+    .service .flower h2 {
+        font-size: 10px;
+        top:140px;
+        }
+    .service .flower p{
+        font-size: 10px;
+        top:160px;
+        }
+    .service .flower button{
+        padding: 5px;
+        font-size: 7px;
+        left:90px;
+        box-shadow: none;
+        
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        
+    }
+    .revi{
+        
+        padding: 0;
+        width: 100%;
+        height: auto;
+        padding:5px 10px;
+        
+    }
+    .reviews .revi .content {
+        font-size: 8px;
+       width: 70%;
+       
+ }
+    .reviews .revi .img img{
+        width: 50px;
+
+        height: 50px;
+        
+    }
+    .reviews .revi .content h1{
+       font-size: 8px;
+       margin: 0;
+       
+    }
+    .reviews .r2,.r4{
+        margin-left: 0;
+    }
+    .reviews .revi .content p{
+        font-size: 6px;
+        
+    }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 20px;
+    padding-bottom: 0px;
+
+  }
+  .footer .contact{
+    padding: 10px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .footer .map iframe{
+    width: 280px;
+    height: 220px;
+    padding: 10px;
+  
+  }
+  .nav button{
+    display: flex;
+  }
+  .nav button{
+    background-color:transparent;
+    color:whitesmoke;
+    font-size: 20px;
+    border: none;
+   
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.pos{
+   
+    padding: 10px;
+    position: fixed;
+    top: 420px;
+    right: 0px;
+    gap: 2px;
+    z-index: 3;
+   border-radius: 8px;
+   background-color:#373A40;
+}
+.pos i{
+   font-size: 12px;
+    color:#DA8359;
+  
+    
+}
+
+    
+
+
+}
+
